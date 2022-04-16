@@ -1,9 +1,10 @@
 from multiapp import MultiApp
 import streamlit as st
+from apps import pageZero, projDetails, tokenDashboard, featDashboard
+
 # Set wide layout
 st.set_page_config(layout="wide")
 # import your app modules here
-from apps import *
 app = MultiApp()
 
 # Add all your application here
