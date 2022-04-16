@@ -1,6 +1,6 @@
 from multiapp import MultiApp
 import streamlit as st
-from apps import pageZero, projDetails, tokenDashboard, featDashboard
+import apps
 
 # Set wide layout
 st.set_page_config(layout="wide")
@@ -8,10 +8,10 @@ st.set_page_config(layout="wide")
 app = MultiApp()
 
 # Add all your application here
-app.add_app("Apresentação", pageZero.action)
-app.add_app("Documentação", projDetails.action)
-app.add_app("Análise Exploratória | Tokens", tokenDashboard.action)
-app.add_app("Análise Exploratória | Features", featDashboard.action)
+app.add_app("Apresentação", apps.pageZero.action)
+app.add_app("Documentação", apps.projDetails.action)
+app.add_app("Análise Exploratória | Tokens", apps.tokenDashboard.action)
+app.add_app("Análise Exploratória | Features", apps.featDashboard.action)
 
 # The main app
 app.run()

@@ -1,6 +1,5 @@
 
 import streamlit as st
-from apps.support import *
 
 def action():
     
