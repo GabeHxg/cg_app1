@@ -3,7 +3,7 @@ import streamlit as st
 # Set wide layout
 st.set_page_config(layout="wide")
 # import your app modules here
-from apps import featDashboard, pageZero, projDetails, tokenDashboard
+from apps import *
 app = MultiApp()
 
 # Add all your application here
