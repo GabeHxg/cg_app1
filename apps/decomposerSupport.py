@@ -5,8 +5,6 @@ import numpy as np
 # algumas bibliotecas para data-viz:
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-
-
 ###### observed #####
 def Observed(df, dec_period):
     obseved_df = pd.DataFrame(index=df.index)
