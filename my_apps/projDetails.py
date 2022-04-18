@@ -19,6 +19,8 @@ def action():
     Um pouco mais sobre o [wrapper](https://github.com/man-c/pycoingecko) (não oficial) usado,
     sua instalação e exemplo de usabilidade pode ser encontrado neste breve [post](https://medium.com/@Gabrielhxg/connecting-python-to-coingeckoapi-83026b72455a).
    
+    --- 
+
     ##### Primeiro passo 
     **Quantos tokens diferentes tem na API? Quais São Relevantes?**
 
@@ -29,6 +31,8 @@ def action():
 
     O notebook comentado de todo o processo pode ser encontrado [aqui](https://github.com/Gabrielhxg/streamlit_cg/blob/master/Database%20building%20workflow/Coin%20Gecko%20API%20%7C%20Extraction.ipynb).
 
+    --- 
+    
     ##### Segundo passo 
     **Quais são os 50 mais relevantes?**
 
@@ -39,6 +43,8 @@ def action():
 
     O notebook (e o algoritmo) responsável pela seleção dos 50 tokens mais relevantes pode ser consultado [aqui](https://github.com/Gabrielhxg/streamlit_cg/blob/master/Database%20building%20workflow/Finding%20top%2050%20%7C%20cgAPI.ipynb).
 
+    --- 
+    
     ##### Terceiro passo 
     **Criação de séries temporais.**
 
