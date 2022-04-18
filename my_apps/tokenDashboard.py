@@ -1,7 +1,7 @@
 ################## Modules ##################
 import streamlit as st
-from apps.support import *
-from apps.scalerSupport import *
+from my_apps.support import *
+from my_apps.scalerSupport import *
 
 def action():
     # Hide stuff

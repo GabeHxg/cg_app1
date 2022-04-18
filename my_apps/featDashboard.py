@@ -1,9 +1,9 @@
 ################## Modules ##################
 import streamlit as st
 import plotly.express as px
-from apps.support import *
-from apps.scalerSupport import *
-from apps.decomposerSupport import *
+from my_apps.support import *
+from my_apps.scalerSupport import *
+from my_apps.decomposerSupport import *
 
 def action():
     # Hide stuff
