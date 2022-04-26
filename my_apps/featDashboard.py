@@ -68,7 +68,7 @@ def action():
                       line_dash_sequence=['longdashdot','dash'],
                       template="plotly_dark")
                       
-        fig.update_layout(autosize=True,height=300,width=1200)
+        fig.update_layout(autosize=True)#,height=300,width=1200)
         st.write(fig)
         my_bar.progress(i/len(dfs))
     my_bar.progress(100)
